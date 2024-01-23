@@ -7,6 +7,7 @@ func Initialize() {
 	router := gin.Default()
 
 	// Initialize Routes
+	initializeRoutes(router)
 
 	// Initialize server
 	router.Run(":8080")
