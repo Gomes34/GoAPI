@@ -20,7 +20,7 @@ type OpeningResponse struct {
 	ID        uint      `json:"id"`
 	CreatedAt time.Time `json:"createdAt"`
 	UpdateAt  time.Time `json:"updateAt"`
-	DeletedAt time.Time `json:"deletedAd, omitempty"`
+	DeletedAt time.Time `json:"deletedAd,omitempty"`
 	Role      string    `json:"role"`
 	Company   string    `json:"company"`
 	Location  string    `json:"location"`
